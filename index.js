@@ -40,7 +40,11 @@ var questions = [
     },
     {
         question: "Interested field to work on: ",
-        answer: "Aggriculture"
+        answer: "Agriculture"
+    },
+    {
+        question: "In which city, i did my graduation: ",
+        answer: "Anantapur"
     }
 ];
 
@@ -54,10 +58,10 @@ console.log(chalk.rgb(10, 75, 10)("you Scored :" + score));
 console.log(chalk.keyword('orange')("Check out the high scores, if you shoul be there ping me and we will update it:"));
 var highScore = [
     {   name: "Naveen",
-        score: 4,
+        score: 5,
     },
     {   name: "Sri",
-        score: 3,
+        score: 4,
     },
 ]
 for (var j=0; j<highScore.length; j=j+1)
